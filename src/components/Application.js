@@ -32,7 +32,7 @@ export default function Application(props) {
       <section className="sidebar">
         <img className="sidebar--centered" src="images/logo.png" alt="Interview Scheduler"/>
         <hr className="sidebar__separator sidebar--centered" />
-        <nav><DayList days={days} day={day} setDay={setDay}/></nav>
+        <nav><DayList days={days} value={day} onChange={setDay}/></nav>
         <nav className="sidebar__menu"></nav>
         <img className="sidebar__lhl sidebar--centered" src="images/lhl.png" alt="Lighthouse Labs"/>
       </section>
