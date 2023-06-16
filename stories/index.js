@@ -31,6 +31,8 @@ import Error from "components/Appointment/Error";
 
 import Form from "components/Appointment/Form";
 
+import { Fragment } from 'react'
+
 
 storiesOf("Button", module)
   .addParameters({
@@ -169,4 +171,13 @@ storiesOf("Button", module)
   .add("Error", () => <Error message="Could not delete appointment." onClose={action("onClose")}/>)
   .add("Create", () => <Form interviewers={interviewers} onSave={action("onSave")} onCancel={action("onCancel")}/>)
   .add("Edit", () => <Form interviewers={interviewers} onSave={action("onSave")} onCancel={action("onCancel")} name="Marijke Van Hell" interviewer="3"/>)
-  
+  .add("Appointment Booked", () => (
+    <Fragment>
+      <Appointment
+        id={1}
+        time="4pm"
+        interview={{ student: "Lydia Miller-Jones", interviewer }}
+      />
+      <Appointment time="5pm" />
+    </Fragment>
+  ))
