@@ -1,5 +1,7 @@
 import React from "react";
 
+import axios from "axios";
+
 import "components/Application.scss";
 
 import DayList from "./DayList";
@@ -8,7 +10,6 @@ import { useState, useEffect } from "react";
 
 import Appointment from "components/Appointment";
 
-import axios from "axios";
 
 
 const appointments = {
