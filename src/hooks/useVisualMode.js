@@ -14,6 +14,9 @@ export default function useVisualMode(initial) {
   }
 
   function back() {
+    if (history.length === 1) {
+      return
+    }
     //gets 2nd to last element in history array to set new mode
      setMode(history[history.length - 2]);
     //makes new array exluding last element
