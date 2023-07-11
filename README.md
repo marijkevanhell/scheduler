@@ -26,9 +26,9 @@ npm run storybook
 
 ## Final Product
 
-!["Screenshot of the main page"]()
-!["Screenshot of the edit & create appointment form"]()
-!["Screenshot of the delete form"]()
+!["Screenshot of the main page"](https://github.com/marijkevanhell/scheduler/blob/master/docs/Appt-main-page.png?raw=true)
+!["Screenshot of the edit & create appointment form"](https://github.com/marijkevanhell/scheduler/blob/master/docs/Appt-edit:create.png?raw=true)
+!["Screenshot of the delete form"](https://github.com/marijkevanhell/scheduler/blob/master/docs/Appt-delete.png?raw=true)
 
 
 
