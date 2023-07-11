@@ -6,24 +6,22 @@ export default function useVisualMode(initial) {
 
   function transition(newMode, replace = false) {
     if (!replace) {
-      setMode(newMode)
-      history.push(newMode)      
+      setMode(newMode);
+      history.push(newMode);
     } else {
-      setMode(newMode)
+      setMode(newMode);
     }
   }
 
   function back() {
     if (history.length === 1) {
-      return
+      return;
     }
     //gets 2nd to last element in history array to set new mode
-     setMode(history[history.length - 2]);
+    setMode(history[history.length - 2]);
     //makes new array exluding last element
     setHistory(history.slice(0, history.length - 1));
   }
 
   return { mode, transition, back };
 }
-
-

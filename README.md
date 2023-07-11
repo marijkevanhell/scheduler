@@ -31,27 +31,26 @@ npm run storybook
 !["Screenshot of the delete form"](https://github.com/marijkevanhell/scheduler/blob/master/docs/Appt-delete.png?raw=true)
 
 
-
 ## Dependencies
 
--axios
--classnames
--normalize.css
--react
--react-dom
--react-scripts
--Babel/core
--Storybook/addon-actions
--Storybook/addon-backgrounds
--Storybook/addon-links
--Storybook/addons
--Storybook/react
--Testing-library/jest-dom
--Testing-library/react
--Testing-library/react-hooks
--Babel-loader
--Node-sass
--Prop-types
--React-test-renderer
+- axios
+- classnames
+- normalize.css
+- react
+- react-dom
+- react-scripts
+- Babel/core
+- Storybook/addon-actions
+- Storybook/addon-backgrounds
+- Storybook/addon-links
+- Storybook/addons
+- Storybook/react
+- Testing-library/jest-dom
+- Testing-library/react
+- Testing-library/react-hooks
+- Babel-loader
+- Node-sass
+- Prop-types
+- React-test-renderer
 
 
